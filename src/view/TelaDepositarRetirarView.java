@@ -12,7 +12,7 @@ import model.Conta;
 public class TelaDepositarRetirarView  {
         public VBox getTelaDepositarRetirar(Stage stage){
     Conta conta = new Conta(123, 10.0);
-    Cliente cliente = new Cliente("Ari", "12", conta);
+    Cliente cliente = new Cliente("Guilherme", "12", conta);
 
     VBox raiz = new VBox(10);
 
